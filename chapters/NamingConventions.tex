@@ -1,0 +1,28 @@
+\section{Naming Conventions}
+
+\subsection{Bei jeder Benennung}
+\begin{itemize}[leftmargin=*]
+    \item Benennungen sollten im Englischen erfolgen
+    \item Benennungen sollten sich immer von C++ Key-Wörtern stark unterscheiden. Der Klassenname “Auto” ist somit zum Beispiel nicht zulässig, da er dem Key-Wort “auto” zu ähnlich sieht.
+\end{itemize}
+
+\subsection{Variablen und Felder}
+\begin{itemize}[leftmargin=*]
+    \item Variablen werden in Camlecase geschrieben (z.B. bufferSize)
+    \item Klassenfelder werden ebenfalls in Camlecase geschrieben, Ihnen wird aber ein unterstrich vorangestellt. (z.B. \_bufferSize)
+    \item Variablen sollten benennende Namen haben (z.B. carColor, bufferSize)
+    \item Temporäre Variablen die nahe an ihrer Definition verwendet werden dürfen von dieser Regel abweichen. Zum Beispiel “int i” in einer for Schleife. Es muss aber zum Beispiel durch Kommentare sichergestellt werden, dass sich die Definition bei Erweiterung nicht zu weit von der Verwendung entfernt.
+\end{itemize}
+
+\subsection{Klassen}
+\begin{itemize}[leftmargin=*]
+    \item Klassen sollten in PascalCase benannt werden (z.B. BufferObject)
+    \item Klassennamen sollten Substantive sein (z.B. Camera)
+\end{itemize}
+
+\subsection{Methoden und Funktionen}
+\begin{itemize}[leftmargin=*]
+    \item Methoden und Funktionen sollten in PascalCase benannt werden (z.B. GetColor, DrawCircle)
+    \item Methoden/Funktionsnamen sollten Verben sein (z.B. TakePicture()).
+    \item Getter und Setter Methoden müssen mit Add bzw. Set gefolgt von dem betroffenen Feld benannt werden (z.B. AddPitch)
+\end{itemize}

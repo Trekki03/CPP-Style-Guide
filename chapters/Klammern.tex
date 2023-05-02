@@ -1,0 +1,10 @@
+% !TeX root = ../main.tex
+\section{Klammern}
+
+\subsection{Geschweifte Klammern}
+\lstinputlisting[language=C++]{codeListings/Klammern.cpp}
+\begin{itemize}[leftmargin=*]
+    \item Geschweifte Klammern gehören immer in leere Zeilen, mit Ausnahme von Guard Clauses, welche nur ein Return enthalten sowie leeren Funktionen.
+    \item Verzweigungen und Schleifen werden immer mit Klammern genutzt. Lediglich die einzelnen Fälle in einer Switch Verzweigung sollten nicht mit Klammern umgeben sein. Außer dies ist unbedingt nötig (Scope für Variablen). Dann sollte dies aber über Kommentare gekennzeichnet werden.
+    \item In Ausdrücken, in denen die Operatoren Reihenfolge von Bedeutung ist, sollen der Übersichtlichkeit halber Klammern verwendet werden,  auch wenn dies von Compilerseite nicht nötig ist.
+\end{itemize}
